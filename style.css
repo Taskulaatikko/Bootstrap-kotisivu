@@ -50,3 +50,21 @@ body{
 .carousel-control-next{
     padding-top: 15em;}
 
+#paluuNappi{
+    margin-top: 13em;
+    margin-left: 52em;
+    background-color: black;
+    color: rgb(70, 69, 69);
+}
+
+#tekstiKenttä{
+    height:32em; 
+    text-align:center; 
+    margin-top: 4em;
+}
+
+#aarreKuvat{
+    height: 25em; 
+    width: 20em; 
+    margin-left: none;
+}
