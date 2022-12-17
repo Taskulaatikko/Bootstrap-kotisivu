@@ -1,0 +1,149 @@
+//mixin
+@mixin theme() {
+    padding-top: 15em;
+}
+
+//sass muuttujat
+$padding-top: 2em;
+$width: 50%;
+
+
+
+.navbar-brand:hover{
+    color: rgb(230, 186, 68);
+}
+
+div>ul{
+    background-color: rgba(145, 145, 145, 0.463);
+}
+
+
+div + div + div + div + div{
+    background-color: rgb(56, 117, 117);
+}
+
+[type*="button"]{
+    color: rgb(177, 228, 228);
+}
+
+h2~button{
+    background-color: red;
+}
+
+
+
+
+
+    .accordion-item{
+        font-family: 'Rajdhani', sans-serif;}
+    
+    
+    body{
+        background-color: black;}
+    
+    
+    .row .col-12{
+        height: 3em;
+        font-size: xx-large;
+        font-family:  Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        padding-top: 0.5em;
+        width: 100%;}
+    
+    
+    .row .col-2{
+        height: 30em;}
+    
+    
+    .row img{
+        padding-left: none;
+        align-items: center;}
+    
+    
+    #carouselExampleDark{
+        padding-top: $padding-top;
+        width: $width; 
+        margin-left: 25em; 
+        height: 30em;}
+    
+    
+    #carouselExampleIndicators{
+        padding-top: $padding-top;
+        width: $width; 
+        margin-left: 25em; 
+        height: 30em;}
+    
+    
+    #carouselExampleControls{
+        padding-top: 10em;
+        width: $width; 
+        margin-left: 25em; 
+        height: 30em;}
+    
+    .carousel-control-prev{
+        @include theme;
+    }
+    
+    .carousel-control-next{
+        @include theme;
+    }
+    
+    #paluuNappi{
+        margin-top: 13em;
+        margin-left: 52em;
+        background-color: black;
+        color: rgb(70, 69, 69);
+    }
+    
+    #tekstiKentta{
+        height:32em; 
+        text-align:center; 
+        margin-top: 4em;
+    }
+    
+    #aarreKuvat{
+        height: 25em; 
+        width: 20em; 
+        margin-left: none;
+    }
+
+    .navbar-brand{
+        font-size: 90%; 
+        margin-left: 2em;
+    }
+
+    #hole{
+        border-radius:40em; 
+        margin: 2em;
+    }
+
+    
+
+    #navbar-margin{
+        margin-left: 50em;
+    }
+
+    #image_small{
+        height: 25em; 
+        width: 20em; 
+        margin-left: 13em;
+    }
+
+    #image_big{
+        height: 20em; 
+        width: 20em; 
+        margin-left: 13em;
+    }
+
+    #worm-color{
+        color: white; 
+        text-align: center; 
+        margin-top:20px;
+    }
+
+    .col-3{
+        background-color:rgb(4, 15, 43); 
+        color: white; 
+        padding-top: 7em;
+    }
+
